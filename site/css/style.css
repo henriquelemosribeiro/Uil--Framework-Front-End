@@ -1,0 +1,129 @@
+/* Reset de estilos para normalizar a aparência em diferentes navegadores */
+body, h1, h2, h3, p, ul, li, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais para o corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #000000;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para a barra de navegação */
+nav {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header-content {
+    margin-top: 20px;
+}
+
+/* Estilos para a logo */
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    max-width: 100%; /* Torna a imagem responsiva */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+/* Estilos para o carrossel de imagens */
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    max-width: 800px; /* Defina a largura máxima desejada para o carrossel */
+    margin: 0 auto; /* Centraliza o carrossel na página */
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 100%; /* Garante que cada imagem preencha o slide inteiro */
+    max-width: 100%; /* Impede que as imagens sejam maiores que o slide */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+#prevBtn,
+#nextBtn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#prevBtn {
+    left: 0;
+}
+
+#nextBtn {
+    right: 0;
+}
+/* Estilos para as seções de conteúdo */
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para os rodapés */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
