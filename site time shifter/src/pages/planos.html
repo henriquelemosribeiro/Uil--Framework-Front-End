@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Time Shifter Multiprop | Contato</title>
+  <title>TSM | Planos</title>
   <link rel="stylesheet" href="../css/bootstrap.css">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="shortcut icon" href="../src/img/favicon.ico" type="image/x-icon">
@@ -49,6 +50,9 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locais</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -58,10 +62,10 @@
           </div>
         </li>
         <li class="nav-item">
-          <a href="planos.html" class="nav-link">Planos</a>
+          <a href="planos.html" class="nav-link active">Planos</a>
         </li>
         <li class="nav-item">
-          <a href="contato.html" class="nav-link active">Contato</a>
+          <a href="contato.html" class="nav-link">Contato</a>
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link" data-toggle="modal" data-target="#modalLogin">Login</a>
@@ -76,89 +80,66 @@
   <section class="container">
     <div class="text-center my-5">
       <span class="h6 d-block text-uppercase">&nbsp;</span>
-      <h1 class="display-4 text-primary">Fale Conosco</h1>
+      <h1 class="display-4 text-primary">Escolha o plano</h1>
     </div>
     <div class="row">
-      <div class="col-lg mb-5">
-        <form action="#" class="bg-light rounded box-shadow p-4">
-          <div class="form-group">
-            <label for="nameInput">Nome</label>
-            <input type="text" class="form-control" id="nameInput">
-          </div>
-          <div class="form-group">
-            <label for="emailInput">Email</label>
-            <input type="email" class="form-control" id="emailInput">
-          </div>
-          <div class="form-group">
-            <label for="messageInput">Mensagem</label>
-            <textarea class="form-control" id="messageInput" rows="4"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Enviar mensagem</button>
-        </form>
-      </div>
-      <div class="col-lg">
-        <h2 class="h6 text-uppercase">Nosso endereço</h2>
-        <a href="https://www.google.com/maps/dir//UNG+Entrada+Principal+-+R.+Eng.+Prestes+Maia,+77a+-+Centro,+Guarulhos+-+SP,+07011-080/@-23.4699764,-46.5323278,19z/data=!4m9!4m8!1m0!1m5!1m1!1s0x94cef537a792d8b3:0xedfea14fb66fa450!2m2!1d-46.5316841!2d-23.4699776!3e0?entry=ttu" target="_blank"><img src="../img/mapa.png" alt="Endereço da empresa" class="img-fluid box-shadow rounded mb-4"></a>
-
-        <h2 class="h6 text-uppercase">Dados de Contato</h2>
-        <ul class="list-unstyled">
-          <li class="text-secondary">contato@fazsite.com.br</li>
-          <li class="text-secondary">11 9 6500-3560</li>
-          <li class="text-secondary">De seg. à sex. das 8h às 18h</li>
-        </ul>
-
-        <h2 class="h6 text-uppercase">Redes Sociais</h2>
-          <ul class="list-unstyled">
-            <li><a href="#" class="btn btn-outline-secondary btn-sm btn-block mb-2 contact-button">Facebook</a></li>
-            <li><a href="#" class="btn btn-outline-secondary btn-sm btn-block mb-2 contact-button">Twitter</a></li>
-            <li><a href="#" class="btn btn-outline-secondary btn-sm btn-block mb-2 contact-button">YouTube</a></li>
+      <div class="col-md mb-5">
+        <div class="bg-light rounded p-4 box-shadow">
+          <h2>Gold</h2>
+          <ul class="list-unstyled lista-plano">
+            <li>→ 30 dias de viagem</li>
+            <li>→ 3 destinos diferentes</li>
+            <li>→ Tudo pago pela empresa</li>
+            <li>→ Ingressos para festas</li>
           </ul>
+          <form action="#">
+            <div class="form-group">
+              <select class="form-control bg-light" id="inputCidades">
+                <option>Selecione a cidade</option>
+                <option>Califórnia</option>
+                <option>Paris</option>
+                <option>Dublin</option>
+              </select>
+            </div>
+          </form>
+          <div class="row align-items-center">
+            <div class="col mt-4">
+              <a href="inscricao.html" class="btn btn-primary btn-lg d-block">Comprar plano</a>
+            </div>
+            <div class="col mt-4">
+              <span class="h4">R$5.000,00</span>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-
-  <section class="container">
-    <div class="my-5 text-center">
-      <span class="h6 d-block text-uppercase">Ainda está com dúvidas?</span>
-      <h2 class="display-4 text-primary">Perguntas Frequentes</h2>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-6" id="perguntasFrequentes" data-children=".pergunta">
-        <div class="pergunta py-2">
-          <a href="#pergunta1" class="lead" data-toggle="collapse" data-parent="perguntasFrequentes">→ É possível cancelar a viagem?</a>
-          <div id="pergunta1" class="collapse show" aria-controls="pergunta1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
+      <div class="col-md mb-5">
+        <div class="bg-light rounded p-4 box-shadow">
+          <h2>Platinum <span class="badge badge-success">NOVO</span></h2>
+          <ul class="list-unstyled lista-plano">
+            <li><span data-toggle="tooltip" data-placement="top" title="Isso mesmo! São 60 dias de viagens para você aproveitar.">→ 60 dias de viagem</span></li>
+            <li><span data-toggle="tooltip" data-placement="top" title="6 destinos diferentes para você curtir muito suas férias!">→ 6 destinos diferentes</span></li>
+            <li>→ Tudo pago pela empresa</li>
+            <li>→ Ingressos para festas</li>
+          </ul>
+          <form action="#">
+            <div class="form-group">
+              <select class="form-control bg-light" id="inputCidades2">
+                <option>Selecione a cidade</option>
+                <option>Califórnia</option>
+                <option>Paris</option>
+                <option>Dublin</option>
+              </select>
+            </div>
+          </form>
+          <div class="row align-items-center">
+            <div class="col mt-4">
+              <a href="inscricao.html" class="btn btn-primary btn-lg d-block">Comprar plano</a>
+            </div>
+            <div class="col mt-4">
+              <span class="h4">R$7.000,00</span>
+            </div>
           </div>
         </div>
-        <div class="dropdown-divider"></div>
-        <div class="pergunta py-2">
-          <a href="#pergunta2" class="lead" data-toggle="collapse" data-parent="perguntasFrequentes">→ Qual a garantia que tenho se perder o voo?</a>
-          <div id="pergunta2" class="collapse" aria-controls="pergunta2">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
-          </div>
-        </div>
-        <div class="dropdown-divider"></div>
-        <div class="pergunta py-2">
-          <a href="#pergunta3" class="lead" data-toggle="collapse" data-parent="perguntasFrequentes">→ Qual a principal forma de viagem?</a>
-          <div id="pergunta3" class="collapse" aria-controls="pergunta3">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
-          </div>
-        </div>
-        <div class="dropdown-divider"></div>
-        <div class="pergunta py-2">
-          <a href="#pergunta4" class="lead" data-toggle="collapse" data-parent="perguntasFrequentes">→ Qual o melhor destino de viagem?</a>
-          <div id="pergunta4" class="collapse" aria-controls="pergunta4">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
-          </div>
-        </div>
-        <div class="dropdown-divider"></div>
-        <div class="pergunta py-2">
-          <a href="#pergunta5" class="lead" data-toggle="collapse" data-parent="perguntasFrequentes">→ Vocês dão descontos para grupos grandes?</a>
-          <div id="pergunta5" class="collapse" aria-controls="pergunta5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
-          </div>
-        </div>
-        <div class="dropdown-divider"></div>
       </div>
     </div>
   </section>
@@ -185,8 +166,8 @@
         <div class="col-md-4">
           <h4 class="h6 text-uppercase">Dados de Contato</h4>
           <ul class="list-unstyled">
-            <li class="text-secondary">contato@fazsite.com.br</li>
-            <li class="text-secondary">11 9 6500-3560</li>
+            <li class="text-secondary">contato@tsm.com.br</li>
+            <li class="text-secondary">21 99999-9999</li>
             <li class="text-secondary">De seg. à sex. das 8h às 18h</li>
           </ul>
         </div>

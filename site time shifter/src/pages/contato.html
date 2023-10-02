@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Time Shifter Multiprop</title>
+  <title>Time Shifter | Contato</title>
   <link rel="stylesheet" href="../css/bootstrap.css">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="shortcut icon" href="../src/img/favicon.ico" type="image/x-icon">
@@ -49,6 +49,9 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locais</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -61,7 +64,7 @@
           <a href="planos.html" class="nav-link">Planos</a>
         </li>
         <li class="nav-item">
-          <a href="contato.html" class="nav-link">Contato</a>
+          <a href="contato.html" class="nav-link active">Contato</a>
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link" data-toggle="modal" data-target="#modalLogin">Login</a>
@@ -73,124 +76,48 @@
     </div>
   </nav>
 
-  <section class="container-fluid">
-    <div class="row bg-dark text-white">
-
-      <div class="col-lg-5 p-4 align-self-center">
-        <h1 class="display-4">Realize a viagem do seu sonho</h1>
-        <p class="lead">O melhor local para viajar é com a Time Shifter Multiprop, mais de 5.000 excursões concluídas.</p>
-        <form action="#">
-          <div class="input-group input-group-lg">
-            <input type="text" class="form-control" placeholder="Email" aria-label="Email">
-            <span class="input-group-append">
-              <button class="btn btn-primary" type="button">Inscreva-se</button>
-            </span>
+  <section class="container">
+    <div class="text-center my-5">
+      <span class="h6 d-block text-uppercase">&nbsp;</span>
+      <h1 class="display-4 text-primary">Fale Conosco</h1>
+    </div>
+    <div class="row">
+      <div class="col-lg mb-5">
+        <form action="#" class="bg-light rounded box-shadow p-4">
+          <div class="form-group">
+            <label for="nameInput">Nome</label>
+            <input type="text" class="form-control" id="nameInput">
           </div>
+          <div class="form-group">
+            <label for="emailInput">Email</label>
+            <input type="email" class="form-control" id="emailInput">
+          </div>
+          <div class="form-group">
+            <label for="messageInput">Mensagem</label>
+            <textarea class="form-control" id="messageInput" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar mensagem</button>
         </form>
       </div>
+      <div class="col-lg">
+        <h2 class="h6 text-uppercase">Nosso endereço</h2>
+        <a href="https://www.google.com/maps/dir//UNG+Entrada+Principal+-+R.+Eng.+Prestes+Maia,+77a+-+Centro,+Guarulhos+-+SP,+07011-080/@-23.4699764,-46.5323278,19z/data=!4m9!4m8!1m0!1m5!1m1!1s0x94cef537a792d8b3:0xedfea14fb66fa450!2m2!1d-46.5316841!2d-23.4699776!3e0?entry=ttu" target="_blank"><img src="../img/mapa.png" alt="Endereço da empresa" class="img-fluid box-shadow rounded mb-4"></a>
 
-      <div class="col-lg-7 p-0">
-        <div id="carouselCidades" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselCidades" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselCidades" data-slide-to="1"></li>
-            <li data-target="#carouselCidades" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="../img/california.jpg" class="d-block w-100" alt="Califórnia">
-              <div class="carousel-caption">
-                <h3 class="display-4">Califórnia</h3>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="../img/paris.jpg" class="d-block w-100" alt="Paris">
-              <div class="carousel-caption">
-                <h3 class="display-4">Paris</h3>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="../img/dublin.jpg" class="d-block w-100" alt="Dublin">
-              <div class="carousel-caption">
-                <h3 class="display-4">Dublin</h3>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselCidades" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselCidades" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Próximo</span>
-          </a>
-        </div>
+        <h2 class="h6 text-uppercase">Dados de Contato</h2>
+        <ul class="list-unstyled">
+          <li class="text-secondary">contato@fazsite.com.br</li>
+          <li class="text-secondary">11 9 6500-3560</li>
+          <li class="text-secondary">De seg. à sex. das 8h às 18h</li>
+        </ul>
+
+        <h2 class="h6 text-uppercase">Redes Sociais</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="btn btn-outline-secondary btn-sm btn-block mb-2 contact-button">Facebook</a></li>
+            <li><a href="#" class="btn btn-outline-secondary btn-sm btn-block mb-2 contact-button">Twitter</a></li>
+            <li><a href="#" class="btn btn-outline-secondary btn-sm btn-block mb-2 contact-button">YouTube</a></li>
+          </ul>
       </div>
-
     </div>
-  </section>
-
-  <section class="py-5 bg-light text-center">
-    <div class="container">
-      <div class="my-5">
-        <span class="h6 d-block text-uppercase">Tudo de melhor para você</span>
-        <h2 class="display-4 text-primary">Aproveite as Vantagens</h2>
-      </div>
-      <div class="row">
-        <div class="col-xl-4 col-md-6">
-          <div class="d-flex justify-content-center icon">
-            <img src="/src/img/icones/passaporte.svg" alt="Passaporte">
-          </div>
-          <h3>Documentos</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
-        </div>
-        <div class="col-xl-4 col-md-6">
-          <div class="d-flex justify-content-center icon">
-            <img src="/src/img/icones/passagens.svg" alt="Passagens">
-          </div>
-          <h3>Passagens</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
-        </div>
-        <div class="col-xl-4 col-md-6">
-          <div class="d-flex justify-content-center icon">
-            <img src="/src/img/icones/translado.svg" alt="Translado">
-          </div>
-          <h3>Translado</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
-        </div>
-        <div class="col-xl-4 col-md-6">
-          <div class="d-flex justify-content-center icon">
-            <img src="/src/img/icones/praias.svg" alt="Praias">
-          </div>
-          <h3>Praias</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
-        </div>
-        <div class="col-xl-4 col-md-6">
-          <div class="d-flex justify-content-center icon">
-            <img src="/src/img/icones/bagagens.svg" alt="Bagagens">
-          </div>
-          <h3>Bagagens</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
-        </div>
-        <div class="col-xl-4 col-md-6">
-          <div class="d-flex justify-content-center icon">
-            <img src="/src/img/icones/turismo.svg" alt="Turismo">
-          </div>
-          <h3>Turismo</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, nemo nulla.</p>
-        </div>
-      </div>
-      <a href="planos.html" class="btn btn-primary btn-lg mt-4">Comprar plano</a>
-    </div>
-  </section>
-
-  <section id="home-quote" class="p-md-5">
-    <blockquote class="blockquote text-center text-white p-md-5 p-3">
-      <p class="display-4">
-        <em>"A felicidade não está na estrada que leva a algum lugar. A felicidade é a própria estrada."</em>
-      </p>
-      <footer class="blockquote-footer text-white">Bob Dylan</footer>
-    </blockquote>
   </section>
 
   <section class="container">
@@ -237,10 +164,6 @@
         <div class="dropdown-divider"></div>
       </div>
     </div>
-    <div class="text-center my-4">
-      <p class="small m-1 text-uppercase">Fale conosco para mais dúvidas</p>
-      <a href="contato.html" class="btn btn-primary btn-lg">Entre em contato</a>
-    </div>
   </section>
   
   <footer class="bg-dark text-white mt-5">
@@ -257,9 +180,9 @@
         <div class="col-6 col-md-3">
           <h4 class="h6 text-uppercase">Locais</h4>
           <ul class="list-unstyled">
-            <li><a href="local/california.html">Califórnia</a></li>
-            <li><a href="local/paris.html">Paris</a></li>
-            <li><a href="local/dublin.html">Dublin</a></li>
+            <li><a href="local.html">Califórnia</a></li>
+            <li><a href="local.html">Paris</a></li>
+            <li><a href="local.html">Dublin</a></li>
           </ul>
         </div>
         <div class="col-md-4">
@@ -281,7 +204,7 @@
       </div>
     </div>
     <div class="bg-primary text-center py-3">
-      <p class="mb-0">© 2023. Desenvolvido por <a href="https://github.com/klusterx" target="_blank" class="text-dark font-weight-bold">Henrique Lemos</a> & <a href="https://github.com/GabriellaHoriuti" target="_blank" class="text-dark font-weight-bold">Gabriella Horiuti</a></p>
+      <p class="mb-0">© 2023. Desenvolvido por <a href="https://github.com/klusterx" target="_blank" class="text-dark font-weight-bold">Henrique Lemos</a> e <a href="https://github.com/GabriellaHoriuti" target="_blank" class="text-dark font-weight-bold">Gabriella Horiuti</a>.</p>
     </div>
   </footer>
   
